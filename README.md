@@ -26,6 +26,12 @@ It is possible to configure env variable for list of instance keys, that we want
 KEYS_TO_DATABASE="Port-channel,TenGigabitEthernet,GigabitEthernet"
 ```
 
+Environment variable for path to config.json file:
+
+```
+PATH_TO_FILE
+```
+
 Database is created using docker container: 
 
 1. [Setting up docker](https://docs.docker.com/desktop/)
